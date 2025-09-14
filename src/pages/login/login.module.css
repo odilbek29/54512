@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+main h1{
+    font-family: Nunito;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0.2%;
+vertical-align: bottom;
+text-align: center;
+color: #000;
+margin-top: 130px;
+margin-bottom: 50px;
+}
+.lib {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    gap: 50px;
+}
+.lib h2{
+    font-family: Nunito;
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: -0.5px;
+text-align: center;
+color: #000;
+margin-top: -50px;
+padding-bottom: 20px;
+}
+.lib p{
+    font-family: Nunito;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0px;
+color: #161C2D;
+}
+.card1{
+    width: 350px;
+    height: 391px;
+    padding: 10px;
+}
+.card1 h3{
+    font-family: Nunito;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: -0.5px;
+color: #000;
+padding-bottom: 20px;
+}
+.card1 p{
+font-family: Nunito;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0px;
+color: #161C2D;
+padding: 10px;
+}
+.card1 h5{
+    font-family: Rubik;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #345830;
+}
+.ota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom :78px ;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1083px){
+.lib{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lib p{
+    width: 900px;
+}
+.ota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+}
